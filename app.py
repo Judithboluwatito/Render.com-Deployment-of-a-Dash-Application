@@ -14,7 +14,8 @@ from dash import dcc, html, Input, Output
 import pandas as pd
 
 # Load the loan dataset into 'Loan_df'
-Loan_df = pd.read_csv('C:\\Users\\HP\\Desktop\\loan_data.csv')
+Loan_df = pd.read_csv('loan_data.csv')
+
 
 # Define the list of features for dropdowns
 features = ['fico', 'int.rate', 'installment', 'log.annual.inc', 'dti']
